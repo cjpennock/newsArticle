@@ -1,0 +1,86 @@
+.clearfix:after {
+	display: box;
+	content:"";
+	clear: both;
+
+}
+
+body {
+	font-family: georgia;
+}
+
+.top-content {
+	border-bottom: 3px solid;
+	border-bottom-color: grey;
+}
+
+.headline {
+	max-width:80%;
+	margin-left: 10%;
+}
+
+h1 {
+	font-size: 44pt;
+	font-family: GEORGIA, sans-serif;
+	text-align: center;
+}
+
+.image-caption {
+	margin-top: 20px;
+	min-width: 100%;
+	box-sizing: border-box;
+	border-bottom: 3px solid grey;
+}
+
+.image-caption img {
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image-caption figcaption {
+	font-size: 14pt;
+	font-family: Georgia, sans-serif;
+}
+
+.col{
+	float:left;
+	min-height: 100px;
+	font-size: 14pt;
+}
+
+.col-one-half {
+	width: 50%;
+}
+
+.col-one-third {
+	width: 33.33333%;
+}
+
+.content {
+	padding: 10px;
+	min-height: 50px;
+	float: left;
+}
+
+span {
+	display: block;
+}
+
+.author {
+	font-style: italic;
+}
+
+.bulk {
+	border-bottom: 3px solid grey;
+}
+
+.banner {
+	float:left;
+	width: 100%;
+}
+
+.navbar {
+	float: left;
+}
